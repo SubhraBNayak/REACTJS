@@ -7,7 +7,7 @@ const App = () => {
     <div>
       <Navbar />
       <Card />
-      <Card />      
+      <Card />
     </div>
   )
 }
