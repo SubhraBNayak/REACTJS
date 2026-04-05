@@ -2,7 +2,7 @@ import React from 'react'
 
 const Pgbottom = () => {
     return (
-        <div className='border-b border-gray-400'>
+        <div >
 
             <div className='pt-13 pl-10 text-gray-500'> Trusted by:</div>
 
@@ -33,7 +33,7 @@ const Pgbottom = () => {
                 </div>
 
             </div>
-
+            <hr class="mx-10 border-t border-gray-200" />
         </div>
     )
 }
