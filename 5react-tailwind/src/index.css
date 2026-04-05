@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+@theme {
+  /* 1. Register the smooth animations */
+  --animate-smooth-up: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-smooth-down: slideDown 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-smooth-left: slideLeft 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-smooth-right: slideRight 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+
+  /* 2. Optimized Keyframes with Hardware Acceleration */
+  @keyframes slideUp {
+    0% { transform: translateY(40px) translateZ(0); opacity: 0; }
+    100% { transform: translateY(0) translateZ(0); opacity: 1; }
+  }
+  
+  @keyframes slideDown {
+    0% { transform: translateY(-40px) translateZ(0); opacity: 0; }
+    100% { transform: translateY(0) translateZ(0); opacity: 1; }
+  }
+
+  @keyframes slideLeft {
+    0% { transform: translateX(40px) translateZ(0); opacity: 0; }
+    100% { transform: translateX(0) translateZ(0); opacity: 1; }
+  }
+
+  @keyframes slideRight {
+    0% { transform: translateX(-40px) translateZ(0); opacity: 0; }
+    100% { transform: translateX(0) translateZ(0); opacity: 1; }
+  }
+}
