@@ -9,6 +9,8 @@ import Boottom from './components/page2/Bottom'
 import Page3top from './components/page3/Page3top'
 import Page3center from './components/page3/Page3center'
 import Page3bottom from './components/page3/Page3bottom'
+import Page4top from './components/page4/Page4top'
+import Page4center from './components/page4/Page4center'
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
       <Page3top />
       <Page3center />
       <Page3bottom />
+      <Page4top />
+      <Page4center />
     </div>
   )
 }
