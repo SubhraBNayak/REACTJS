@@ -16,12 +16,7 @@ const App = () => {
 
   return (
     <div>
-      <div className="mouseMove" onMouseMove={function(elem){
-        console.log("mouse moving")
-        console.log(elem.clientX)
-        console.log(elem.clientY)
-      }}>
-
+    
       </div>
     </div>
   )
