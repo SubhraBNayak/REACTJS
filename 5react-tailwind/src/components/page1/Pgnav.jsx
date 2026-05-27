@@ -8,10 +8,11 @@ const Pgnav = () => {
     */
     <div className='sticky top-5 z-20 -mt-20 mx-auto w-fit'>
     <div className='flex items-center justify-center gap-6 font-bold text-sm p-5 w-105 rounded-full bg-white/30 backdrop-blur-md'>
-      <div className='hover:text-gray-600 cursor-pointer transition-colors duration-400'>Benefits</div>
-      <div className='hover:text-gray-600 cursor-pointer transition-colors duration-400'>Specifications</div>
-      <div className='hover:text-gray-600 cursor-pointer transition-colors duration-400'>How-to</div>
-      <div className='hover:text-gray-600 cursor-pointer transition-colors duration-400'>Contact Us</div>
+      <div className='hover:text-gray-600 cursor-pointer transition-colors duration-400'>Home</div>
+      <div className='hover:text-gray-600 cursor-pointer transition-colors duration-400'>Accounts</div>
+      <div className='hover:text-gray-600 cursor-pointer transition-colors duration-400'>Loan</div>
+      <div className='hover:text-gray-600 cursor-pointer transition-colors duration-400'>Careers</div>
+      <div className='hover:text-gray-600 cursor-pointer transition-colors duration-400'></div>
     </div>
     </div>
   )
